@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/arlarm_logo"
+        android:layout_marginBottom="20dp"
+        android:tint="@color/s"/>
+
+    <TextView
+        android:id="@+id/alarmTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:text="알람 제목 :"
+        android:textColor="#333333"
+        android:fontFamily="@font/sb_b"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/alarmTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:fontFamily="@font/sb_b"
+        android:text="알람 시간 : "
+        android:textColor="#333333"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/medicineNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:fontFamily="@font/sb_b"
+        android:text="복용할 약 : "
+        android:textColor="#333333"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/stopAlarmButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_bg"
+        android:padding="15dp"
+        android:fontFamily="@font/sb_b"
+        android:text="알람 해제"
+        android:textSize="18dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

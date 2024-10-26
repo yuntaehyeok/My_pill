@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1025461403241",
+    "project_id": "alarm-f697a",
+    "storage_bucket": "alarm-f697a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025461403241:android:6f2e51e86cac06ff2d6cf8",
+        "android_client_info": {
+          "package_name": "com.example.arlam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJXjNy3ScVfjGjjn6gkroB0HYE6EX249s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
